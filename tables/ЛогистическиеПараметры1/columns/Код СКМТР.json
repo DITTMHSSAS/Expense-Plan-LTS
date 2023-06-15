@@ -1,0 +1,10 @@
+{
+  "type": "calculated",
+  "name": "Код СКМТР",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "IFERROR(FORMAT(VALUE('ЛогистическиеПараметры1'[_Код СКМТР]),\"0000000000\"),BLANK())",
+    ""
+  ]
+}

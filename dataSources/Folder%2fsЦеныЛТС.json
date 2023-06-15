@@ -1,0 +1,20 @@
+{
+  "type": "structured",
+  "name": "Folder/sЦеныЛТС",
+  "connectionDetails": {
+    "protocol": "folder",
+    "address": {
+      "path": "\\\\Tmh-srv112\\files$\\ReliabilityLPS\\zНормированиеЛТС\\sЦеныЛТС"
+    },
+    "authentication": null,
+    "query": null
+  },
+  "options": {
+    "hierarchicalNavigation": true
+  },
+  "credential": {
+    "AuthenticationKind": "ServiceAccount",
+    "kind": "Folder",
+    "path": "\\\\tmh-srv112\\files$\\reliabilitylps\\zнормированиелтс\\sнормативы"
+  }
+}

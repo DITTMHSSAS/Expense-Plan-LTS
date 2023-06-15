@@ -1,0 +1,28 @@
+{
+  "type": "calculated",
+  "name": "Код НСИ",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tKodSKMTR=IFERROR(FORMAT(VALUE('_НормативыЦУНР_РЖД_загрузка _дляОтладки'[КодСКМТР]),\"0000000000\"),\"(&~\")",
+    "VAR tEd=UPPER( '_НормативыЦУНР_РЖД_загрузка _дляОтладки'[ЕдИзм] )",
+    "",
+    "VAR  tTableBySKMTR = FILTER(",
+    "    '_НоменклатураКСНСИ',",
+    "    '_НоменклатураКСНСИ'[Код_СК_МТР] = tKodSKMTR",
+    "    &&NOT(ISBLANK('_НоменклатураКСНСИ'[Код_СК_МТР]))",
+    "    && '_НоменклатураКСНСИ'[ЕдиницаИзмерения] = tEd",
+    ")",
+    "",
+    "VAR tCountSKMTR=COUNTROWS(tTableBySKMTR)",
+    "",
+    "VAR tRet=SWITCH(TRUE(),",
+    "    tCountSKMTR = 1, MAXX(tTableBySKMTR,'_НоменклатураКСНСИ'[Код]),",
+    "    BLANK()",
+    ")",
+    "",
+    "RETURN",
+    "tRet",
+    ""
+  ]
+}

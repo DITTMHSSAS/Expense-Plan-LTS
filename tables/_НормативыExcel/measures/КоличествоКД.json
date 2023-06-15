@@ -1,0 +1,7 @@
+{
+  "name": "КоличествоКД",
+  "expression": "SUM('_НормативыExcel'[_КоличествоКД])",
+  "formatString": "#,##0.00",
+  "isHidden": true,
+  "displayFolder": "Прочее"
+}

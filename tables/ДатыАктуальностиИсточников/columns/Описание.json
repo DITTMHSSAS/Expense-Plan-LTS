@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Описание",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Описание]"
+}

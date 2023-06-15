@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_норм_ПодзапросИсточник",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_норм_ПодзапросИсточник]",
+  "displayFolder": "Техническая\\Нормы"
+}

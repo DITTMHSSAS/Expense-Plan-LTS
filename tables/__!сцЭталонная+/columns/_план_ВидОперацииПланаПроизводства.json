@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_план_ВидОперацииПланаПроизводства",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_план_ВидОперацииПланаПроизводства]"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_норм_ОбъектРемонтаШаблонСерии",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_норм_ОбъектРемонтаШаблонСерии]",
+  "displayFolder": "Техническая\\Нормы"
+}

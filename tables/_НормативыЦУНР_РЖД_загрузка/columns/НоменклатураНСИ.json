@@ -1,0 +1,18 @@
+{
+  "type": "calculated",
+  "name": "НоменклатураНСИ",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tKodNSI='_НормативыЦУНР_РЖД_загрузка'[Код НСИ]",
+    "VAR tEd=UPPER( '_НормативыЦУНР_РЖД_загрузка'[ЕдИзм] )",
+    "",
+    "VAR  tTableByNSI = FILTER(",
+    "    '_НоменклатураКСНСИ',",
+    "    '_НоменклатураКСНСИ'[Код] = tKodNSI",
+    "    --&& UPPER('_НоменклатураКСНСИ'[ЕдиницаИзмерения]) = tEd",
+    ")",
+    "VAR tCountNSI=COUNTROWS(tTableByNSI)",
+    "RETURN IF( tCountNSI = 1, MAXX( tTableByNSI, '_НоменклатураКСНСИ'[Наименование] ), BLANK() )"
+  ]
+}

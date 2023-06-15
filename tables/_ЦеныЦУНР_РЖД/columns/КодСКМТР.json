@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "КодСКМТР",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "_НормативыЦУНР_РЖД[КодСКМТР]"
+}

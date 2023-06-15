@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "ДрайверВыручки",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[ДрайверВыручки]"
+}

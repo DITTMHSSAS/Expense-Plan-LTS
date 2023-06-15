@@ -1,0 +1,11 @@
+{
+  "name": "SqlServer_TMH-SRV030_AnalysisReferenceInf_TMH_WORK",
+  "connectionString": "Provider=SQLNCLI11;Data Source=TMH-SRV030;Initial Catalog=AnalysisReferenceInf_TMH_WORK;Integrated Security=SSPI;Persist Security Info=false",
+  "impersonationMode": "impersonateServiceAccount",
+  "annotations": [
+    {
+      "name": "ConnectionEditUISource",
+      "value": "SqlServer"
+    }
+  ]
+}

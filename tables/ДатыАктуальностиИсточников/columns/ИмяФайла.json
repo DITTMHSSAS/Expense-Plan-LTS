@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "ИмяФайла",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[ИмяФайла]"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Планируется отдельно",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'Затраты'[_норм_ПланируетсяОтдельно]"
+}

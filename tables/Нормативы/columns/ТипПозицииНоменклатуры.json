@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "ТипПозицииНоменклатуры",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[ТипПозицииНоменклатуры]",
+  "displayFolder": "Прочее"
+}

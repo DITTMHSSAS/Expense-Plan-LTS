@@ -1,0 +1,6 @@
+{
+  "name": "Производитель",
+  "dataType": "string",
+  "sourceColumn": "Производитель",
+  "displayFolder": "Прочее"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Коэффициент",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": "IFERROR(CONVERT(IF( TRIM('_АналогиРЖД'[_Коэффициент]) = \"\", 1, '_АналогиРЖД'[_Коэффициент] ),DOUBLE),1)"
+}

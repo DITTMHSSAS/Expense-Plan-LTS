@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "СтатусНоменклатуры",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'Затраты'[_норм_СтатусНоменклатуры]"
+}

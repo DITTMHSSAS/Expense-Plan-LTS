@@ -1,0 +1,9 @@
+{
+  "name": "TMH-SRV030_vНормативыАСУСГпоМК",
+  "mode": "import",
+  "source": {
+    "type": "query",
+    "query": "SELECT * FROM [dbo].[vНормативыАСУСГпоМК]",
+    "dataSource": "TMH_SRV030_ВыгрузкиАСУСГ"
+  }
+}

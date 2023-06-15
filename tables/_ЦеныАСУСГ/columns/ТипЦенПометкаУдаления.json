@@ -1,0 +1,6 @@
+{
+  "name": "ТипЦенПометкаУдаления",
+  "dataType": "string",
+  "sourceColumn": "ТипЦенПометкаУдаления",
+  "displayFolder": "Прочее"
+}

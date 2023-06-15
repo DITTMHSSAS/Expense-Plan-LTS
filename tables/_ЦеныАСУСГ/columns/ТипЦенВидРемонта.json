@@ -1,0 +1,6 @@
+{
+  "name": "ТипЦенВидРемонта",
+  "dataType": "string",
+  "sourceColumn": "ТипЦенВидРемонта",
+  "displayFolder": "Прочее"
+}

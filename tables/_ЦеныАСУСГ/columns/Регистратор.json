@@ -1,0 +1,6 @@
+{
+  "name": "Регистратор",
+  "dataType": "string",
+  "sourceColumn": "Регистратор",
+  "displayFolder": "Техническая"
+}

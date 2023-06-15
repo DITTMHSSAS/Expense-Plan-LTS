@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_норм_НоменклатураНСИ",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_норм_НоменклатураНСИ]",
+  "displayFolder": "Техническая\\Нормы"
+}

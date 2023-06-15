@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_норм_СтатусНоменклатуры",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_норм_СтатусНоменклатуры]"
+}

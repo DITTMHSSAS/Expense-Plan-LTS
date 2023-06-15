@@ -1,0 +1,9 @@
+{
+  "name": "_ПланыРемонтовАСУСГ",
+  "mode": "import",
+  "source": {
+    "type": "query",
+    "query": "SELECT * FROM [dbo].[vПланыРемонтов]",
+    "dataSource": "TMH_SRV030_ВыгрузкиАСУСГ"
+  }
+}

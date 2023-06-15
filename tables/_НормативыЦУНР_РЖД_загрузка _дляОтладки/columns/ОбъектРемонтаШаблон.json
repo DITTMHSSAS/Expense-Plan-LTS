@@ -1,0 +1,15 @@
+{
+  "type": "calculated",
+  "name": "ОбъектРемонтаШаблон",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tVal='_НормативыЦУНР_РЖД_загрузка _дляОтладки'[_ИмяФайла]",
+    "VAR tPos1=FIND(\".\",tVal,1,101)-1",
+    "VAR tVal2=LEFT(tVal,tPos1)",
+    "VAR tPos2=FIND(\"_\",tVal2,1,101)-1",
+    "VAR tRet=LEFT(tVal2,tPos2)",
+    "",
+    "RETURN tRet"
+  ]
+}

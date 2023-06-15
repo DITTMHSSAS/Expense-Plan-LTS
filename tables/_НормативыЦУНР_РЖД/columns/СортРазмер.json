@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "СортРазмер",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[СортРазмер]"
+}

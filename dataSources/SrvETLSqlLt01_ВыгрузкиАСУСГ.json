@@ -1,0 +1,12 @@
+{
+  "name": "SrvETLSqlLt01_ВыгрузкиАСУСГ",
+  "connectionString": "Data Source=SrvETLSqlLt01.LOCOTECH.RU;Initial Catalog=ВыгрузкиАСУСГ;Integrated Security=True;Encrypt=False",
+  "impersonationMode": "impersonateServiceAccount",
+  "provider": "System.Data.SqlClient",
+  "annotations": [
+    {
+      "name": "ConnectionEditUISource",
+      "value": "SqlServer"
+    }
+  ]
+}

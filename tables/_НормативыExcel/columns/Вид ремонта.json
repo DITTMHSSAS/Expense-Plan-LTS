@@ -1,0 +1,5 @@
+{
+  "name": "Вид ремонта",
+  "dataType": "string",
+  "sourceColumn": "ВидРемонта"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "_ПланыРемонтовАСУСГ",
+  "isHidden": true,
+  "annotations": [
+    {
+      "name": "TabularEditor_TableGroup",
+      "value": "_Прочее"
+    }
+  ]
+}

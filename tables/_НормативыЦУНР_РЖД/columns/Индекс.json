@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Индекс",
+  "dataType": "double",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Индекс]"
+}

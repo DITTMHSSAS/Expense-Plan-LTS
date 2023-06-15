@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Период",
+  "dataType": "dateTime",
+  "isDataTypeInferred": true,
+  "expression": "'Затраты'[_план_Период]"
+}

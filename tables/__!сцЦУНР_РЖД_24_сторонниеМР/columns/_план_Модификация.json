@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_план_Модификация",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_план_Модификация]"
+}

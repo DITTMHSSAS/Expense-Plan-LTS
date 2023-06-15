@@ -1,0 +1,6 @@
+{
+  "name": "TIMESTAMP",
+  "dataType": "dateTime",
+  "sourceColumn": "TIMESTAMP",
+  "displayFolder": "Техническая"
+}

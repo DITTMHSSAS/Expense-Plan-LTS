@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "ОбъектРемонтаШаблон",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[ОбъектРемонтаШаблон]"
+}

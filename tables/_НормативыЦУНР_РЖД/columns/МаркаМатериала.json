@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "МаркаМатериала",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[МаркаМатериала]"
+}

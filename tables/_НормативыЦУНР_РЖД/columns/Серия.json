@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Серия",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'_НормативыЦУНР_РЖД'[ОбъектРемонтаШаблон]"
+}

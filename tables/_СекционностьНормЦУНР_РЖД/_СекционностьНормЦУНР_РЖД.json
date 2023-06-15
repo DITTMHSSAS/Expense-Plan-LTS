@@ -1,0 +1,10 @@
+{
+  "name": "_СекционностьНормЦУНР_РЖД",
+  "isHidden": true,
+  "annotations": [
+    {
+      "name": "TabularEditor_TableGroup",
+      "value": "_Нормативы"
+    }
+  ]
+}

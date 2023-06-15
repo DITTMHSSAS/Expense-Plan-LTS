@@ -1,0 +1,9 @@
+{
+  "type": "calculated",
+  "name": "Код НСИ",
+  "dataType": "string",
+  "expression": [
+    "IFERROR(FORMAT(VALUE('Затраты'[_Код НСИ]),\"000000000\"),'Затраты'[_Код НСИ])",
+    ""
+  ]
+}

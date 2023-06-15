@@ -1,0 +1,5 @@
+{
+  "name": "КоличествоСтрокНормативовExcel",
+  "expression": "COUNTROWS('_НормативыExcel')",
+  "isHidden": true
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Цена без НДС",
+  "dataType": "double",
+  "sourceColumn": "Цена без НДС"
+}

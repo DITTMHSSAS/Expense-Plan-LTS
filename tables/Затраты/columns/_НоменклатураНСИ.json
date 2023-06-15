@@ -1,0 +1,15 @@
+{
+  "type": "calculated",
+  "name": "_НоменклатураНСИ",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "SWITCH(TRUE(),",
+    "    NOT(ISBLANK('Затраты'[_норм_НоменклатураНСИ])),'Затраты'[_норм_НоменклатураНСИ],",
+    "    'Затраты'[_Номенклатура]",
+    ")",
+    "",
+    ""
+  ],
+  "displayFolder": "Техническая"
+}

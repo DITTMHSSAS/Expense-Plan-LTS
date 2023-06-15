@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "НоменклатураНСИ",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[НоменклатураНСИ]"
+}

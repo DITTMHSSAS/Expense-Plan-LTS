@@ -1,0 +1,5 @@
+{
+  "name": "_debug_ЦУНР_РЖД_КоличествоСтрок",
+  "expression": "COUNTROWS('__!сцЦУНР_РЖД')",
+  "formatString": "#,##0"
+}

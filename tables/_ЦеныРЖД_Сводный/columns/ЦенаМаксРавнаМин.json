@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "ЦенаМаксРавнаМин",
+  "dataType": "boolean",
+  "isDataTypeInferred": true,
+  "expression": "'_ЦеныРЖД_Сводный'[ЦенаРЖД_макс]='_ЦеныРЖД_Сводный'[ЦенаРЖД_мин]"
+}

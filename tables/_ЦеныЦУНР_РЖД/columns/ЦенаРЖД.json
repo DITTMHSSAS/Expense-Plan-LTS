@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "ЦенаРЖД",
+  "dataType": "double",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "_НормативыЦУНР_РЖД[ЦенаРЖД]"
+}

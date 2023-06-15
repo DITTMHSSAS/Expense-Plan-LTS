@@ -1,0 +1,8 @@
+{
+  "type": "calculated",
+  "name": "_КлючЦеныНоменклатуры",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "TRIM( '_ЦеныЕРП'[ТипЦен] )&TRIM( '_ЦеныЕРП'[КодНСИ] )",
+  "displayFolder": "Техническая"
+}

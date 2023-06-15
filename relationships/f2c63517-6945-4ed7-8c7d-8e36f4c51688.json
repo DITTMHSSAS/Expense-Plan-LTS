@@ -1,0 +1,8 @@
+{
+  "name": "f2c63517-6945-4ed7-8c7d-8e36f4c51688",
+  "fromTable": "_НормативыExcel",
+  "fromColumn": "Код НСИ",
+  "toTable": "_НоменклатураКСНСИ",
+  "toColumn": "Код",
+  "crossFilteringBehavior": "bothDirections"
+}

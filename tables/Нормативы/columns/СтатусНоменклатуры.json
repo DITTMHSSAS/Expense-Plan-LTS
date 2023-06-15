@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "СтатусНоменклатуры",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[СтатусНоменклатуры]",
+  "displayFolder": "Прочее"
+}

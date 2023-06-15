@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Код СКМТР",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'Нормативы'[_КодСКМТР]"
+}

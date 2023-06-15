@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "ДлКод",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "LEN('_ЦеныЛТС'[Код СК-МТР])"
+}

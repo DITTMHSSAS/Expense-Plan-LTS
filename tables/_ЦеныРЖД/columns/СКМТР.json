@@ -1,0 +1,12 @@
+{
+  "type": "calculated",
+  "name": "СКМТР",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "IFERROR(FORMAT(VALUE('_ЦеныРЖД'[Код СК-МТР]),\"0000000000\"),BLANK())",
+    "//VAR tVal=CONVERT('_ЦеныРЖД'[Код СК-МТР],STRING)",
+    "//RETURN",
+    "//IF( LEN( tVal ) = 10, tVal, \"0\" & tVal )"
+  ]
+}

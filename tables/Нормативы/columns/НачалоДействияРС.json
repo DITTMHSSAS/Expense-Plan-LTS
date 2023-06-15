@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "НачалоДействияРС",
+  "dataType": "dateTime",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[НачалоДействияРС]"
+}

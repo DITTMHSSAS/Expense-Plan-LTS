@@ -1,0 +1,9 @@
+{
+  "name": "_ЦеныРЖД_Сводный",
+  "annotations": [
+    {
+      "name": "TabularEditor_TableGroup",
+      "value": "_НоменклатураЦены"
+    }
+  ]
+}

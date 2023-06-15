@@ -1,0 +1,5 @@
+{
+  "name": "ТипПланирования",
+  "dataType": "string",
+  "sourceColumn": "ТипПланирования"
+}

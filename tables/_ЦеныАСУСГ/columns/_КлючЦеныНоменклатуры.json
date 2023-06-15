@@ -1,0 +1,8 @@
+{
+  "type": "calculated",
+  "name": "_КлючЦеныНоменклатуры",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "TRIM( '_ЦеныАСУСГ'[ТипЦен] )&TRIM( '_ЦеныАСУСГ'[КодНСИ] )",
+  "displayFolder": "Техническая"
+}

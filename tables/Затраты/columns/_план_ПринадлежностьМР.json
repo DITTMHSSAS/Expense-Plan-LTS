@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_план_ПринадлежностьМР",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_план_ПринадлежностьМР]",
+  "displayFolder": "Техническая\\ПланРемонта"
+}

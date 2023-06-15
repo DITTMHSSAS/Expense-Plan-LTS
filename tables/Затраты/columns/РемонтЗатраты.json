@@ -1,0 +1,13 @@
+{
+  "type": "calculated",
+  "name": "РемонтЗатраты",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "SWITCH(",
+    "    TRUE(),",
+    "    ISBLANK( 'Затраты'[_Источник] ), \"Ремонт без затрат\",",
+    "    \"Ремонт с затратами\"",
+    ")"
+  ]
+}

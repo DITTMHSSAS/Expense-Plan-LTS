@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "ЕдИзмКорр",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[ЕдИзмКорр]"
+}

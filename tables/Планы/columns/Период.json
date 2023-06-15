@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Период",
+  "dataType": "dateTime",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Период]"
+}

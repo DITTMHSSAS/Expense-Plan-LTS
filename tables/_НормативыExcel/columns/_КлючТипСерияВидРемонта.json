@@ -1,0 +1,8 @@
+{
+  "type": "calculated",
+  "name": "_КлючТипСерияВидРемонта",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'_НормативыExcel'[Тип]&\"|\"&'_НормативыExcel'[Серия]&\"|\"&'_НормативыExcel'[Вид ремонта]",
+  "displayFolder": "Техническая"
+}

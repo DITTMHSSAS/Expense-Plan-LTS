@@ -1,0 +1,5 @@
+{
+  "name": "AnalysisServices TMH-SRV060_ЗаказыАСУСГ",
+  "connectionString": "provider=MSOLAP.8;integrated security=SSPI;persist security info=False;initial catalog=ЗаказыАСУСГ;data source=TMH-SRV060;extended properties=\"DbpropMsmdFlattened2=true\";update isolation level=2",
+  "impersonationMode": "impersonateServiceAccount"
+}

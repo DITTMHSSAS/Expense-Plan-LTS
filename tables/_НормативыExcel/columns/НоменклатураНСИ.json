@@ -1,0 +1,15 @@
+{
+  "type": "calculated",
+  "name": "НоменклатураНСИ",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tKodNSI='_НормативыExcel'[Код НСИ]",
+    "VAR  tTableByNSI = FILTER(",
+    "    '_НоменклатураКСНСИ',",
+    "    '_НоменклатураКСНСИ'[Код] = tKodNSI",
+    ")",
+    "VAR tCountNSI=COUNTROWS(tTableByNSI)",
+    "RETURN IF( tCountNSI = 1, MAXX( tTableByNSI, '_НоменклатураКСНСИ'[Наименование] ), BLANK() )"
+  ]
+}

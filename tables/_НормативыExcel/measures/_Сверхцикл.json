@@ -1,0 +1,7 @@
+{
+  "name": "_Сверхцикл",
+  "expression": "--SUM('_НормативыExcel'[__ПроектСверхцикл])",
+  "formatString": "#,##0.00",
+  "isHidden": true,
+  "displayFolder": "Прочее"
+}

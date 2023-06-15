@@ -1,0 +1,5 @@
+{
+  "name": "Цена",
+  "dataType": "decimal",
+  "sourceColumn": "Цена"
+}

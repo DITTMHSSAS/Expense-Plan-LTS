@@ -1,0 +1,14 @@
+{
+  "type": "calculated",
+  "name": "ОшибкаЭталонЕд",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tVal3='_АналогиРЖД'[ЭталонКодСКМТР]",
+    "VAR tPrz4=CALCULATE( DISTINCTCOUNT( '_АналогиРЖД'[ЭталонЕд]), ALL( '_АналогиРЖД' ), tVal3 = '_АналогиРЖД'[ЭталонКодСКМТР])>1",
+    "RETURN",
+    "IF(tPrz4,\"Ошибка ЭталонЕд\",\"Ок\")",
+    ""
+  ],
+  "displayFolder": "ПроверкаАналогов"
+}

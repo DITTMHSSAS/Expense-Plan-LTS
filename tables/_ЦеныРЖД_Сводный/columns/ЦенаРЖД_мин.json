@@ -1,0 +1,13 @@
+{
+  "type": "calculated",
+  "name": "ЦенаРЖД_мин",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tKey1='_ЦеныРЖД_Сводный'[КодСКМТР]",
+    "VAR tKEy2='_ЦеныРЖД_Сводный'[ЕдИзм]",
+    "RETURN",
+    "CALCULATE(MIN('_ЦеныРЖД_Сводный'[ЦенаРЖД]),ALL('_ЦеныРЖД_Сводный'),tKey1='_ЦеныРЖД_Сводный'[КодСКМТР],tKEy2='_ЦеныРЖД_Сводный'[ЕдИзм])",
+    ""
+  ]
+}

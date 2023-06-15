@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_КоличествоОбязательное",
+  "dataType": "double",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_КоличествоОбязательное]",
+  "displayFolder": "Техническая"
+}

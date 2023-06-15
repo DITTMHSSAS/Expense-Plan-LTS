@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "ЦенаРЖДиндексированная",
+  "dataType": "double",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[ЦенаРЖДиндексированная]"
+}

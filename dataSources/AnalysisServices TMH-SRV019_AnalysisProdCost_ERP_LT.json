@@ -1,0 +1,5 @@
+{
+  "name": "AnalysisServices TMH-SRV019_AnalysisProdCost_ERP_LT",
+  "connectionString": "provider=MSOLAP;integrated security=SSPI;persist security info=False;initial catalog=AnalysisProdCost_ERP_LT;data source=TMH-SRV019;extended properties=\"DbpropMsmdFlattened2=true\";update isolation level=2",
+  "impersonationMode": "impersonateServiceAccount"
+}

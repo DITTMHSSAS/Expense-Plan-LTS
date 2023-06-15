@@ -1,0 +1,6 @@
+{
+  "name": "TMH-SRV030_VygruzkiASUSG",
+  "connectionString": "Data Source=TMH-SRV030;Initial Catalog=ВыгрузкиАСУСГ;Integrated Security=True",
+  "impersonationMode": "impersonateServiceAccount",
+  "provider": "System.Data.SqlClient"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Марка",
+  "dataType": "string",
+  "sourceColumn": "Марка",
+  "displayFolder": "Прочее"
+}

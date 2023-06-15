@@ -1,0 +1,13 @@
+{
+  "name": "_Ошибка",
+  "expression": [
+    "SWITCH(",
+    "    SELECTEDVALUE( '_АналогиРЖД'[Ошибка] ),",
+    "    BLANK(), 1,",
+    "    \"ЕстьОшибка\", 1,",
+    "    0",
+    ")"
+  ],
+  "isHidden": true,
+  "displayFolder": "Техническая"
+}

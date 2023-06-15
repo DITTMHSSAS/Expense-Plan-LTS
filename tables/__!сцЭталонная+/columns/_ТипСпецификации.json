@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "_ТипСпецификации",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "IF(ISBLANK('__!сцЭталонная+'[_норм_ТипСпецификации]),\"<РС не найдена>\",'__!сцЭталонная+'[_норм_ТипСпецификации])"
+}

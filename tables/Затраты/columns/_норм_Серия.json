@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_норм_Серия",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_норм_Серия]",
+  "displayFolder": "Техническая\\Нормы"
+}

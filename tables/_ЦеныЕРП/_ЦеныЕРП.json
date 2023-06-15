@@ -1,0 +1,9 @@
+{
+  "name": "_ЦеныЕРП",
+  "annotations": [
+    {
+      "name": "TabularEditor_TableGroup",
+      "value": "_НоменклатураЦены"
+    }
+  ]
+}

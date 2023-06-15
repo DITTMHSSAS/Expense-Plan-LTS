@@ -1,0 +1,6 @@
+{
+  "name": "ОборудованиеЛокомотива",
+  "dataType": "string",
+  "sourceColumn": "ОборудованиеЛокомотива",
+  "displayFolder": "Прочее"
+}

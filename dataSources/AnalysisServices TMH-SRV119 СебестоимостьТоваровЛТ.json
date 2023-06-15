@@ -1,0 +1,11 @@
+{
+  "name": "AnalysisServices TMH-SRV119 СебестоимостьТоваровЛТ",
+  "connectionString": "Data Source=TMH-SRV119;Persist Security Info=false;Integrated Security=SSPI;Initial Catalog=СебестоимостьТоваровЛТ;Provider=MSOLAP;DbpropMsmdFlattened2=true",
+  "impersonationMode": "impersonateServiceAccount",
+  "annotations": [
+    {
+      "name": "ConnectionEditUISource",
+      "value": "AnalysisServices"
+    }
+  ]
+}

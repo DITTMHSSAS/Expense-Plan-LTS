@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Подбор_ЦеныСценарий3",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "Затраты[Подбор_ЦеныСценарий3]"
+}

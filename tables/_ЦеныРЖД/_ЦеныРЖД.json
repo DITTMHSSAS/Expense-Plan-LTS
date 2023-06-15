@@ -1,0 +1,10 @@
+{
+  "name": "_ЦеныРЖД",
+  "isHidden": true,
+  "annotations": [
+    {
+      "name": "TabularEditor_TableGroup",
+      "value": "_НоменклатураЦены"
+    }
+  ]
+}

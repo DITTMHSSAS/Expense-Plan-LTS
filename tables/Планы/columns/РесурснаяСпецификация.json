@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "РесурснаяСпецификация",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[РесурснаяСпецификация]"
+}

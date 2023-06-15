@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Год",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "'Затраты'[_план_Год]"
+}

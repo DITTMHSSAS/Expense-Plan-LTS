@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_норм_ТарифныйРазряд",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_норм_ТарифныйРазряд]",
+  "displayFolder": "Техническая\\Нормы"
+}

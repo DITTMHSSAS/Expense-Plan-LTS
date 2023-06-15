@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_КоличествоПроектЦиклЦУНР+",
+  "dataType": "decimal",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_КоличествоПроектЦиклЦУНР+]"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Договор СО",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'Затраты'[_план_ДоговорСО]"
+}

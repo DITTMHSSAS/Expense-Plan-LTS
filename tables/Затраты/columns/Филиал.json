@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Филиал",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'Затраты'[_план_Филиал]"
+}

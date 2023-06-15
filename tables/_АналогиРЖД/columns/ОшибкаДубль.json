@@ -1,0 +1,16 @@
+{
+  "type": "calculated",
+  "name": "ОшибкаДубль",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tVal1='_АналогиРЖД'[Код СКМТР]",
+    "VAR tVal2='_АналогиРЖД'[Применимость]",
+    "VAR tPrz1=COUNTROWS( FILTER( ALL( '_АналогиРЖД' ), tVal1 = '_АналогиРЖД'[Код СКМТР] && tVal2 = '_АналогиРЖД'[Применимость] ) )<>1",
+    "RETURN",
+    "IF(tPrz1,\"Ошибка ДубльИсх\",\"Ок\")",
+    "",
+    ""
+  ],
+  "displayFolder": "ПроверкаАналогов"
+}

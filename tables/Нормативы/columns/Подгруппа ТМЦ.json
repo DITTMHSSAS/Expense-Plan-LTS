@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Подгруппа ТМЦ",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Подгруппа ТМЦ]",
+  "displayFolder": "Прочее"
+}

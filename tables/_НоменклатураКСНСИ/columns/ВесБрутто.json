@@ -1,0 +1,6 @@
+{
+  "name": "ВесБрутто",
+  "dataType": "decimal",
+  "sourceColumn": "ВесБрутто",
+  "displayFolder": "Прочее"
+}

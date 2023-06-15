@@ -1,0 +1,10 @@
+{
+  "name": "_Сезоны",
+  "isHidden": true,
+  "annotations": [
+    {
+      "name": "TabularEditor_TableGroup",
+      "value": "_Нормативы"
+    }
+  ]
+}

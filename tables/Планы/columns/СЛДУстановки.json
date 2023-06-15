@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "СЛДУстановки",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[СЛДУстановки]"
+}

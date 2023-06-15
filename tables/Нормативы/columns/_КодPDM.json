@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_КодPDM",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_КодPDM]",
+  "displayFolder": "Прочее"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "calculated",
+  "name": "_НеоднозначностьЦены",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tVal='_ЦеныЕРП'[КодСКМТР]",
+    "VAR tTab1=SUMMARIZE(FILTER(ALL('_ЦеныЕРП'),tVAl='_ЦеныЕРП'[КодСКМТР]),'_ЦеныЕРП'[Номенклатура])",
+    "VAR tTab2=SUMMARIZE(FILTER(ALL('_ЦеныЕРП'),tVAl='_ЦеныЕРП'[КодСКМТР]),'_ЦеныЕРП'[_ЕдиницаИзмерения])",
+    "RETURN",
+    "COUNTROWS( tTab1 ) + COUNTROWS( tTab2 )",
+    "    "
+  ],
+  "displayFolder": "Техническая"
+}

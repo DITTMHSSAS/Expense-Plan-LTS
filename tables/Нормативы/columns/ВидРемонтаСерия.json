@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "ВидРемонтаСерия",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'Нормативы'[ВидРемонта]&\"|\"&'Нормативы'[ОбъектРемонтаШаблон]"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "TMH_SRV030_ВыгрузкиАСУСГ",
+  "connectionString": "provider=SQLOLEDB;integrated security=SSPI;persist security info=False;initial catalog=ВыгрузкиАСУСГ;data source=TMH-SRV030",
+  "impersonationMode": "impersonateServiceAccount"
+}

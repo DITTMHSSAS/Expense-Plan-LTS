@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Сценарий и тип планирования",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'Планы'[СценарииПланирования]&\" (\"&'Планы'[ТипПланирования]&\")\""
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ТипПозиции",
+  "dataType": "string",
+  "sourceColumn": "ТипПозиции",
+  "displayFolder": "Прочее"
+}

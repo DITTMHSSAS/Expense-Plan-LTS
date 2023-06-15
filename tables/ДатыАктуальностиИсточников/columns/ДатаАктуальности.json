@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "ДатаАктуальности",
+  "dataType": "dateTime",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[ДатаАктуальности]",
+  "formatString": "dd.mm.yyyy hh:nn:ss"
+}

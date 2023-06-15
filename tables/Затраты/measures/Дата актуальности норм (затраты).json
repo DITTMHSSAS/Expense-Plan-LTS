@@ -1,0 +1,5 @@
+{
+  "name": "Дата актуальности норм (затраты)",
+  "expression": "MAX('Затраты'[TIMESTAMP])",
+  "displayFolder": "Техническая"
+}

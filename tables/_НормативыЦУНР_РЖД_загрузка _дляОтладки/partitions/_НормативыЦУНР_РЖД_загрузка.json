@@ -1,0 +1,26 @@
+{
+  "name": "_НормативыЦУНР_РЖД_загрузка",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Источник = Folder.Files(\"\\\\Tmh-srv112\\files$\\ReliabilityLPS\\zНормированиеЛТС\\sЦУНР_РЖД\"),",
+      "    #\"Переименовываем системные системные реквизиты файлов\" = Table.RenameColumns(Источник,{{\"Name\", \"_ИмяФайла\"}, {\"Date accessed\", \"_ДатаЧтенияФайла\"}, {\"Date modified\", \"_ДатаИзмененияФайла\"}, {\"Date created\", \"_ДатаСозданияФайла\"}, {\"Folder Path\", \"_Путь\"}}),",
+      "    #\"Отбираем нужные файлы\" = Table.SelectRows(#\"Переименовываем системные системные реквизиты файлов\", each ([Extension] = \".xlsx\" or [Extension] = \".xls\")),",
+      "    #\"Добавляем содержимое файлов\" = Table.AddColumn(#\"Отбираем нужные файлы\", \"Данные\", each Excel.Workbook([Content])),",
+      "    #\"Удаляем файлы с ошибками\" = Table.RemoveRowsWithErrors(#\"Добавляем содержимое файлов\", {\"Данные\"}),",
+      "    #\"Разворачиваем контейнеры Excel\" = Table.ExpandTableColumn(#\"Удаляем файлы с ошибками\", \"Данные\", {\"Name\", \"Data\", \"Item\", \"Kind\", \"Hidden\"}, {\"Name\", \"Data\", \"Item\", \"Kind\", \"Hidden\"}),",
+      "    #\"Отбираем нужные контейнеры Excel\" = Table.SelectRows(#\"Разворачиваем контейнеры Excel\", each ([Kind] = \"Sheet\") and ([Hidden] = false)),",
+      "    #\"Удаляем ненужные системные колонки\" = Table.RemoveColumns(#\"Отбираем нужные контейнеры Excel\",{\"Item\", \"Kind\", \"Hidden\", \"Content\", \"Extension\", \"Attributes\"}),",
+      "    #\"Сохраняем имя исходного листа\" = Table.RenameColumns(#\"Удаляем ненужные системные колонки\",{{\"Name\", \"Лист\"}}),",
+      "    #\"Разворачиваем таблицы Excel\" = Table.ExpandTableColumn(#\"Сохраняем имя исходного листа\", \"Data\", {\"Column1\",\"Column2\",\"Column3\",\"Column4\",\"Column5\",\"Column6\",\"Column7\",\"Column8\",\"Column9\",\"Column10\",\"Column11\",\"Column12\"}, {\"КодСКМТР\",\"Наименование\",\"МаркаМатериала\",\"ГОСТ_ТУ\",\"СортРазмер\",\"ЕдИзм\",\"НормаТО2\",\"НормаТО3\",\"НормаТР1\",\"НормаТР2\",\"НормаТР3\",\"ЦенаРЖД\"}),",
+      "    #\"Нумеруем строки\" = Table.AddIndexColumn(#\"Разворачиваем таблицы Excel\", \"Индекс\", 0, 1),",
+      "    #\"Преобразуем типы данных\" = Table.TransformColumnTypes(#\"Нумеруем строки\",{{\"КодСКМТР\", type text}, {\"Лист\", type text}, {\"Наименование\", type text}, {\"МаркаМатериала\", type text}, {\"ГОСТ_ТУ\", type text}, {\"СортРазмер\", type text}, {\"ЕдИзм\", type text}, {\"НормаТО2\", type number}, {\"НормаТО3\", type number}, {\"НормаТР1\", type number}, {\"НормаТР2\", type number}, {\"НормаТР3\", type number}, {\"ЦенаРЖД\", type number}}),",
+      "    #\"Добавляем ведущие нули СКМТР\" = Table.TransformColumns(#\"Преобразуем типы данных\",{",
+      "\t{\"КодСКМТР\", each Text.PadStart(_, 10, \"0\"), type text, type text}}),",
+      "    #\"Итоговая таблица\" = Table.SelectRows(#\"Добавляем ведущие нули СКМТР\", each true)",
+      "in",
+      "#\"Итоговая таблица\""
+    ]
+  }
+}

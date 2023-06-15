@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_план_TIMESTAMP",
+  "dataType": "dateTime",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_план_TIMESTAMP]"
+}

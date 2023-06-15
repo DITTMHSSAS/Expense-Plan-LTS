@@ -1,0 +1,23 @@
+{
+  "type": "structured",
+  "name": "File/ЛогистическиеПараметры1",
+  "connectionDetails": {
+    "protocol": "file",
+    "address": {
+      "path": "\\\\Tmh-srv112\\files$\\ReliabilityLPS\\zНормированиеЛТС\\fФайлы\\ЛогистическиеПараметры1.xlsx"
+    },
+    "authentication": null,
+    "query": null
+  },
+  "credential": {
+    "AuthenticationKind": "ServiceAccount",
+    "kind": "File",
+    "path": "\\\\tmh-srv019\\biexcelsources\\scom_stat\\серверагктмх.xlsx"
+  },
+  "contextExpression": [
+    "let",
+    "    #\"0001\" = Excel.Workbook(..., null, true)",
+    "in",
+    "    #\"0001\""
+  ]
+}

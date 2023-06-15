@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_НоменклатураРЖД",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_НоменклатураРЖД]",
+  "displayFolder": "Прочее"
+}

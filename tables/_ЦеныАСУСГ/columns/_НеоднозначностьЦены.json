@@ -1,0 +1,15 @@
+{
+  "type": "calculated",
+  "name": "_НеоднозначностьЦены",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tVal='_ЦеныАСУСГ'[КодСКМТР]",
+    "VAR tTab1=SUMMARIZE(FILTER(ALL('_ЦеныАСУСГ'),tVAl='_ЦеныАСУСГ'[КодСКМТР]),'_ЦеныАСУСГ'[Номенклатура])",
+    "VAR tTab2=SUMMARIZE(FILTER(ALL('_ЦеныАСУСГ'),tVAl='_ЦеныАСУСГ'[КодСКМТР]),'_ЦеныАСУСГ'[_ЕдиницаИзмерения])",
+    "RETURN",
+    "COUNTROWS( tTab1 ) + COUNTROWS( tTab2 )",
+    "    "
+  ],
+  "displayFolder": "Техническая"
+}

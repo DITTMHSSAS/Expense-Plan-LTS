@@ -1,0 +1,14 @@
+{
+  "name": "New M Partition",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Источник = Excel.Workbook(File.Contents(\"\\\\Tmh-srv112\\files$\\ReliabilityLPS\\zНормированиеЛТС\\fФайлы\\ЛогистическиеПараметры1.xlsx\"), null, true),",
+      "    ЛогистическиеПараметры1_Table = Источник{[Item=\"ЛогистическиеПараметры1\",Kind=\"Table\"]}[Data],",
+      "    #\"Измененный тип\" = Table.TransformColumnTypes(ЛогистическиеПараметры1_Table,{{\"№п/п\", Int64.Type}, {\"Поставщик\", type text}, {\"Производитель\", type text}, {\"Номенклатура\", type text}, {\"Код СКМТР\", Int64.Type}, {\"Условия предоплаты в %\", Int64.Type}})",
+      "in",
+      "    #\"Измененный тип\""
+    ]
+  }
+}

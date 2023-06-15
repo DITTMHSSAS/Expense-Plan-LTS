@@ -1,0 +1,12 @@
+{
+  "type": "calculated",
+  "name": "_ПроектЦикл",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tVal=SUBSTITUTE( '_НормативыExcel'[__ПроектЦикл], \",\", \".\" )",
+    "RETURN",
+    "IFERROR( VALUE( tVal ), 0 )"
+  ],
+  "displayFolder": "Техническая"
+}

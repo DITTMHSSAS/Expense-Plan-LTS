@@ -1,0 +1,6 @@
+{
+  "name": "ТипЦенКод",
+  "dataType": "string",
+  "sourceColumn": "ТипЦенКод",
+  "displayFolder": "Прочее"
+}

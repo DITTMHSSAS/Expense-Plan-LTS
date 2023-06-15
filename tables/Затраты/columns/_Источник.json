@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_Источник",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_Источник]",
+  "displayFolder": "Техническая"
+}

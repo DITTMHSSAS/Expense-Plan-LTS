@@ -1,0 +1,6 @@
+{
+  "name": "ИсточникПоставки",
+  "dataType": "string",
+  "sourceColumn": "ИсточникПоставки",
+  "displayFolder": "Прочее"
+}

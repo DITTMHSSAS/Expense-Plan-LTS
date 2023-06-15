@@ -1,0 +1,6 @@
+{
+  "name": "ТипЦенСпособРасчетаЦены",
+  "dataType": "string",
+  "sourceColumn": "ТипЦенСпособРасчетаЦены",
+  "displayFolder": "Прочее"
+}

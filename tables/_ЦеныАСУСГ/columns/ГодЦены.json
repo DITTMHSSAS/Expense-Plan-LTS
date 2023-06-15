@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "ГодЦены",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "YEAR('_ЦеныАСУСГ'[Период])"
+}

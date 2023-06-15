@@ -1,0 +1,9 @@
+{
+  "name": "Количество по спецификации",
+  "expression": [
+    "VAR tPrz=NOT ( ISBLANK( SELECTEDVALUE( 'Затраты'[Номенклатура] ) ) )&&NOT ( ISBLANK( SELECTEDVALUE( 'Затраты'[_Источник] ) ) )",
+    "RETURN ",
+    "    IF(tPrz,AVERAGE( 'Затраты'[_Количество] ),BLANK())"
+  ],
+  "formatString": "#,##0.000"
+}

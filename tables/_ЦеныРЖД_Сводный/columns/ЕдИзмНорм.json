@@ -1,0 +1,15 @@
+{
+  "type": "calculated",
+  "name": "ЕдИзмНорм",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tVal='_ЦеныРЖД_Сводный'[ЕдИзм]",
+    "VAR tTable=FILTER('_CоответствиеЕдиницИзмерения','_CоответствиеЕдиницИзмерения'[ЕдИзмИсх]=tVal)",
+    "VAR tRet=MAXX(TOPN(1,tTable),'_CоответствиеЕдиницИзмерения'[ЕдИзмКорр])",
+    "    ",
+    "RETURN",
+    "IF(ISBLANK(tRet), tVal, tRet)",
+    ""
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ТипЦенПроцентСкидкиНаценки",
+  "dataType": "decimal",
+  "sourceColumn": "ТипЦенПроцентСкидкиНаценки",
+  "displayFolder": "Прочее"
+}

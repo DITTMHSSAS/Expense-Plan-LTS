@@ -1,0 +1,5 @@
+{
+  "name": "ТарифныйРазряд",
+  "dataType": "string",
+  "sourceColumn": "ТарифныйРазряд"
+}

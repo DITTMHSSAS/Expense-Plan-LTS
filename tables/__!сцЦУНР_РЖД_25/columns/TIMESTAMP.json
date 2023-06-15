@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "TIMESTAMP",
+  "dataType": "dateTime",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[TIMESTAMP]"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Модификация",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'Затраты'[_план_Модификация]"
+}

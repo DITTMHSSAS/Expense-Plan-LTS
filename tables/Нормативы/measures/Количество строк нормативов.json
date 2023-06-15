@@ -1,0 +1,5 @@
+{
+  "name": "Количество строк нормативов",
+  "expression": "COUNTROWS('Нормативы')",
+  "formatString": "#,##0"
+}

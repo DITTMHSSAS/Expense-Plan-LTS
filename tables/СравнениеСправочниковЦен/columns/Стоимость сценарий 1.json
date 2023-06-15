@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Стоимость сценарий 1",
+  "dataType": "double",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Стоимость сценарий 1]"
+}

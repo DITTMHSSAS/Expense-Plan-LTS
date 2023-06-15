@@ -1,0 +1,5 @@
+{
+  "name": "МаркаМатериала",
+  "dataType": "string",
+  "sourceColumn": "МаркаМатериала"
+}

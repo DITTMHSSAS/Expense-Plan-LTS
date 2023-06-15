@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "ЗимаНачМесяц",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "MONTH('_Сезоны'[_ЗимаНачДата])"
+}

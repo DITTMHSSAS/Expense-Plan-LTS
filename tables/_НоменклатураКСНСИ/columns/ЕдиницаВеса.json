@@ -1,0 +1,6 @@
+{
+  "name": "ЕдиницаВеса",
+  "dataType": "string",
+  "sourceColumn": "ЕдиницаВеса",
+  "displayFolder": "Прочее"
+}

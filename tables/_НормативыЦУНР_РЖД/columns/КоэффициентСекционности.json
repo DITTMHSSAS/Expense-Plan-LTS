@@ -1,0 +1,12 @@
+{
+  "type": "calculated",
+  "name": "КоэффициентСекционности",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tTable=TOPN(1,FILTER('_СекционностьНормЦУНР_РЖД','_СекционностьНормЦУНР_РЖД'[ОбъектРемонтаШаблон]='_НормативыЦУНР_РЖД'[ОбъектРемонтаШаблон]))",
+    "VAR tRet=MAXX(tTable,'_СекционностьНормЦУНР_РЖД'[Коэффициент])",
+    "RETURN",
+    "IF(ISBLANK(tRet),0,tREt)"
+  ]
+}

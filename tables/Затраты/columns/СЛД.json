@@ -1,0 +1,6 @@
+{
+  "type": "calculated",
+  "name": "СЛД",
+  "dataType": "string",
+  "expression": "'Затраты'[_план_СЛД]"
+}

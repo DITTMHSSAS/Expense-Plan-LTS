@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "НоменклатураНСИ",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'_НормативыАСУСГпоМК'[Номенклатура]"
+}

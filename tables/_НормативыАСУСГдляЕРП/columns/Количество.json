@@ -1,0 +1,5 @@
+{
+  "name": "Количество",
+  "dataType": "decimal",
+  "sourceColumn": "Количество"
+}

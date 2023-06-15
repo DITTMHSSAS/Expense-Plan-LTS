@@ -1,0 +1,6 @@
+{
+  "name": "_КоличествоСтрокАналогов",
+  "expression": "COUNTROWS('_АналогиРЖД')",
+  "isHidden": true,
+  "displayFolder": "Техническая"
+}

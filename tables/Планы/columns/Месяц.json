@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Месяц",
+  "dataType": "dateTime",
+  "isDataTypeInferred": true,
+  "expression": "EOMONTH ( 'Планы'[Период], -1 )+1"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "calculated",
+  "name": "Источник подзапроса нормативов",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'Затраты'[_норм_ПодзапросИсточник]",
+  "displayFolder": "Техническая"
+}

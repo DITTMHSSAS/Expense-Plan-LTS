@@ -1,0 +1,7 @@
+{
+  "name": "Цикл",
+  "expression": "SUM('_НормативыExcel'[_ПроектЦикл])",
+  "formatString": "#,##0.00",
+  "isHidden": true,
+  "displayFolder": "Прочее"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "TMH_SRV030_AnalysisProdCost_ERP",
+  "connectionString": "provider=SQLOLEDB.1;integrated security=SSPI;persist security info=False;initial catalog=AnalysisProdCost_ERP;data source=TMH-SRV030",
+  "impersonationMode": "impersonateServiceAccount"
+}

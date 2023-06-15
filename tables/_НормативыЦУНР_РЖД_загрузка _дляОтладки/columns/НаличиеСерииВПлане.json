@@ -1,0 +1,12 @@
+{
+  "type": "calculated",
+  "name": "НаличиеСерииВПлане",
+  "dataType": "decimal",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tTable=TOPN(1,FILTER('Планы','Планы'[ОбъектРемонтаШаблон]='_НормативыЦУНР_РЖД_загрузка _дляОтладки'[ОбъектРемонтаШаблон]))",
+    "VAR tRet=SUMX(tTable,'Планы'[КоличествоРемонтов])",
+    "RETURN",
+    "IF(ISBLANK(tRet),0,tREt)"
+  ]
+}

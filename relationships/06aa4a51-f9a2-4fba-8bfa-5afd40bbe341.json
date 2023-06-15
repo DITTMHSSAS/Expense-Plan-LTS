@@ -1,0 +1,8 @@
+{
+  "name": "06aa4a51-f9a2-4fba-8bfa-5afd40bbe341",
+  "fromTable": "Затраты",
+  "fromColumn": "_КлючРемонта",
+  "toTable": "_КоличествоРемонтовВЗатратах",
+  "toColumn": "_КлючРемонта",
+  "crossFilteringBehavior": "bothDirections"
+}

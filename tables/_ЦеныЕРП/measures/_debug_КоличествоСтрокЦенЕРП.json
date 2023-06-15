@@ -1,0 +1,5 @@
+{
+  "name": "_debug_КоличествоСтрокЦенЕРП",
+  "expression": "COUNTROWS('_ЦеныАСУСГ')",
+  "isHidden": true
+}

@@ -1,0 +1,9 @@
+{
+  "name": "_vАналогиКСНСИсГруппами",
+  "mode": "import",
+  "source": {
+    "type": "query",
+    "query": "SELECT * FROM [dbo].[vАналогиКСНСИсГруппами]",
+    "dataSource": "TMH_SRV030_AnalysisProdCost_ERP"
+  }
+}

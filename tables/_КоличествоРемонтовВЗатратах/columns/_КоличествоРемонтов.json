@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_КоличествоРемонтов",
+  "dataType": "decimal",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_КоличествоРемонтов]"
+}

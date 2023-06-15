@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_Количество",
+  "dataType": "double",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_Количество]",
+  "displayFolder": "Техническая"
+}

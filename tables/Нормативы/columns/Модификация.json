@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Модификация",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Модификация]"
+}

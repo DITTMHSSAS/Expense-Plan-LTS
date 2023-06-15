@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_план_Сезонность",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_план_Сезонность]",
+  "displayFolder": "Техническая\\ПланРемонта"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "ЦенаРЖД",
+  "dataType": "double",
+  "sourceColumn": "ЦенаРЖД"
+}

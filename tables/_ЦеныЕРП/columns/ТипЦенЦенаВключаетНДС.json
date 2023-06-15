@@ -1,0 +1,6 @@
+{
+  "name": "ТипЦенЦенаВключаетНДС",
+  "dataType": "string",
+  "sourceColumn": "ТипЦенЦенаВключаетНДС",
+  "displayFolder": "Прочее"
+}

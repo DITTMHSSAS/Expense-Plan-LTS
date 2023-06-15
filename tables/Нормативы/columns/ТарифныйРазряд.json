@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "ТарифныйРазряд",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[ТарифныйРазряд]"
+}

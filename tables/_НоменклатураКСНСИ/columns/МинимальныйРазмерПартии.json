@@ -1,0 +1,6 @@
+{
+  "name": "МинимальныйРазмерПартии",
+  "dataType": "decimal",
+  "sourceColumn": "МинимальныйРазмерПартии",
+  "displayFolder": "Прочее"
+}

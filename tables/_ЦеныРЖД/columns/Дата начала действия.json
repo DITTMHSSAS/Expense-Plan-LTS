@@ -1,0 +1,5 @@
+{
+  "name": "Дата начала действия",
+  "dataType": "dateTime",
+  "sourceColumn": "Дата начала действия"
+}

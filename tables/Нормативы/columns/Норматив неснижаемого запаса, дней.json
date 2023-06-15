@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Норматив неснижаемого запаса, дней",
+  "dataType": "double",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Норматив неснижаемого запаса, дней]",
+  "displayFolder": "Прочее"
+}

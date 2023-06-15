@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Драйвер выручки",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'Затраты'[_план_ДрайверВыручки]"
+}

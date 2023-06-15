@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_план_КоличествоРемонтов",
+  "dataType": "decimal",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_план_КоличествоРемонтов]",
+  "displayFolder": "Техническая\\ПланРемонта"
+}

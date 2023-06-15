@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "ЦенаРЖДиндексированная",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": "'_ЦеныЦУНР_РЖД'[ЦенаРЖД]*1.7046"
+}

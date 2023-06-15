@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Депо приписки",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'Затраты'[_план_ДепоПриписки]"
+}

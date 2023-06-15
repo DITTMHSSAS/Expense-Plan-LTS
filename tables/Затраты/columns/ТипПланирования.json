@@ -1,0 +1,6 @@
+{
+  "type": "calculated",
+  "name": "ТипПланирования",
+  "dataType": "string",
+  "expression": "'Затраты'[_план_ТипПланирования]"
+}

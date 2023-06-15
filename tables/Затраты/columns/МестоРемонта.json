@@ -1,0 +1,6 @@
+{
+  "type": "calculated",
+  "name": "МестоРемонта",
+  "dataType": "string",
+  "expression": "'Затраты'[_план_МестоРемонта]"
+}

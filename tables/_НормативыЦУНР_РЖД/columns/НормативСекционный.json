@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "НормативСекционный",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": "'_НормативыЦУНР_РЖД'[Норматив]*'_НормативыЦУНР_РЖД'[КоэффициентСекционности]"
+}

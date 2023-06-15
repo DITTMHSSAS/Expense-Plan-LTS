@@ -1,0 +1,12 @@
+{
+  "type": "calculated",
+  "name": "Пара",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tVal1=TRIM( '_АналогиРЖД'[Код СКМТР] )",
+    "VAR tVal2=TRIM( '_АналогиРЖД'[ЭталонКодСКМТР] )",
+    "RETURN",
+    "IF(tVal1>tVal2,tVal1&\"-\"&tVal2,tVal2&\"-\"&tVal1)"
+  ]
+}

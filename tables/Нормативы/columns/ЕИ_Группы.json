@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "ЕИ_Группы",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[ЕИ_Группы]",
+  "displayFolder": "Прочее"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Статус",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Статус]"
+}

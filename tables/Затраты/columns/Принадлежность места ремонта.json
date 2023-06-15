@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Принадлежность места ремонта",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'Затраты'[_план_ПринадлежностьМР]"
+}

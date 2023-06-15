@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Коэффициент",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": "DIVIDE(1,'_СекционностьНормЦУНР_РЖД'[СекционностьРЖД])"
+}

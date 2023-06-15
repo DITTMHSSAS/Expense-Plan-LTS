@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "ПланируетсяОтдельно",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[ПланируетсяОтдельно]"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "AllReader",
+  "modelPermission": "readRefresh",
+  "members": [
+    {
+      "memberName": "HQ\\BI_Reports_all_users",
+      "memberId": "S-1-5-21-218910771-3630720037-17811310-25017"
+    },
+    {
+      "memberName": "LOCOTECH\\MavrinAN",
+      "memberId": "S-1-5-21-2509222527-3473664192-1900209780-9910"
+    },
+    {
+      "memberName": "LOCOTECH\\Domain Users",
+      "memberId": "S-1-5-21-2509222527-3473664192-1900209780-513"
+    }
+  ]
+}

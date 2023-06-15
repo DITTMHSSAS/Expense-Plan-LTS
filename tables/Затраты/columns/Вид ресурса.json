@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Вид ресурса",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'Затраты'[_норм_ВидРесурса]"
+}

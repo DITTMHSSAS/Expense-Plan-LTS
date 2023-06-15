@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_план_ОбъектРемонтаШаблон",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_план_ОбъектРемонтаШаблон]",
+  "displayFolder": "Техническая\\ПланРемонта"
+}

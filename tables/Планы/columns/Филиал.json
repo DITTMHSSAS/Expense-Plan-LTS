@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Филиал",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Филиал]"
+}

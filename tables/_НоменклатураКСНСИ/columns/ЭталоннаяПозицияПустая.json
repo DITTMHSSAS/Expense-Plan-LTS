@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "ЭталоннаяПозицияПустая",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "IF(ISBLANK('_НоменклатураКСНСИ'[_ЭталоннаяПозицияКод]),\"ЭталоннаяПозицияПустая\",\"ЭталоннаяЗаполнена\")"
+}

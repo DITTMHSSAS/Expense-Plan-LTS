@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "ПодзапросИсточник",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[ПодзапросИсточник]"
+}

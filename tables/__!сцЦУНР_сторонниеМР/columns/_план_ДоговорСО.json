@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_план_ДоговорСО",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_план_ДоговорСО]"
+}

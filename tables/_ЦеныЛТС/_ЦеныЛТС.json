@@ -1,0 +1,9 @@
+{
+  "name": "_ЦеныЛТС",
+  "annotations": [
+    {
+      "name": "TabularEditor_TableGroup",
+      "value": "_НоменклатураЦены"
+    }
+  ]
+}

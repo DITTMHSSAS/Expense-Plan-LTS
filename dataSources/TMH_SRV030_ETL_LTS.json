@@ -1,0 +1,6 @@
+{
+  "name": "TMH_SRV030_ETL_LTS",
+  "connectionString": "Data Source=TMH-SRV030.HQ.TMH.LOCAL;Initial Catalog=ETL_LTS;Integrated Security=True",
+  "impersonationMode": "impersonateServiceAccount",
+  "provider": "System.Data.SqlClient"
+}

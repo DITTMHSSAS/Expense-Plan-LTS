@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "ВидРемонтаСерия",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'Затраты'[ВидРемонта]&\"|\"&'Затраты'[ОбъектРемонтаШаблон]"
+}

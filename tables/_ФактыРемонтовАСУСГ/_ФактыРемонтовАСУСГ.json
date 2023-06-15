@@ -1,0 +1,10 @@
+{
+  "name": "_ФактыРемонтовАСУСГ",
+  "isHidden": true,
+  "annotations": [
+    {
+      "name": "TabularEditor_TableGroup",
+      "value": "_Прочее"
+    }
+  ]
+}

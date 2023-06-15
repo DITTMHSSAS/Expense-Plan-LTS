@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Отклонение",
+  "dataType": "double",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Отклонение]"
+}

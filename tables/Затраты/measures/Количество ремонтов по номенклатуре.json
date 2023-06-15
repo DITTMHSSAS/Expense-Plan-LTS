@@ -1,0 +1,9 @@
+{
+  "name": "Количество ремонтов по номенклатуре",
+  "expression": [
+    "VAR tVal=SELECTEDVALUE('Затраты'[Номенклатура])",
+    "RETURN ",
+    "    IF(ISBLANK( tVal ),tVal,SUM('Затраты'[_план_КоличествоРемонтов]))"
+  ],
+  "formatString": "#,##0"
+}

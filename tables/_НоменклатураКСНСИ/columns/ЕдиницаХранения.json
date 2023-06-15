@@ -1,0 +1,6 @@
+{
+  "name": "ЕдиницаХранения",
+  "dataType": "string",
+  "sourceColumn": "ЕдиницаХранения",
+  "displayFolder": "Прочее"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "calculated",
+  "name": "ОшибкаЭталон=Аналог",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tKey1='_АналогиРЖД'[ЭталонКодСКМТР]",
+    "VAR tKey2='_АналогиРЖД'[ЭталонЕд]",
+    "VAR tKey3='_АналогиРЖД'[Применимость]",
+    "VAR tTable1=FILTER( ALL( '_АналогиРЖД' ),'_АналогиРЖД'[Код СКМТР]=tKey1 && '_АналогиРЖД'[Ед]=tKey2 )",
+    "VAR tTable2=FILTER(tTable1, OR( '_АналогиРЖД'[Применимость] = \"\", ISBLANK( '_АналогиРЖД'[Применимость] ) ) )",
+    "VAR tTable3=FILTER(tTable1,'_АналогиРЖД'[Применимость]=tKey3)",
+    "",
+    "RETURN",
+    "SWITCH(TRUE(),",
+    "    ISBLANK(COUNTROWS(tTable3)),\"Ок\",",
+    "    ISBLANK(COUNTROWS(tTable2)),\"Ок\",",
+    "    \"Ошибка Эталон=Аналог\"",
+    ")",
+    ""
+  ],
+  "displayFolder": "ПроверкаАналогов"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Сорт",
+  "dataType": "string",
+  "sourceColumn": "Сорт",
+  "displayFolder": "Прочее"
+}

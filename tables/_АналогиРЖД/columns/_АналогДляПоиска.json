@@ -1,0 +1,15 @@
+{
+  "type": "calculated",
+  "name": "_АналогДляПоиска",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tVal=",
+    "\"(\"&'_АналогиРЖД'[Код СКМТР]&",
+    "\")\"&'_АналогиРЖД'[Наименование]&",
+    "\" (\"&'_АналогиРЖД'[Ед]&\")\"",
+    "RETURN",
+    "tVal"
+  ],
+  "displayFolder": "Техническая"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "УправлениеПоЖДУстановки",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[УправлениеПоЖДУстановки]"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_ЗимаКонДата",
+  "dataType": "dateTime",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_ЗимаКонДата]"
+}

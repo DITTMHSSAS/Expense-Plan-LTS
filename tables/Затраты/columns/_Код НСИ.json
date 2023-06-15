@@ -1,0 +1,9 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "_Код НСИ",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[_Код НСИ]",
+  "displayFolder": "Техническая"
+}

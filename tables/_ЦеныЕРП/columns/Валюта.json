@@ -1,0 +1,6 @@
+{
+  "name": "Валюта",
+  "dataType": "string",
+  "sourceColumn": "Валюта",
+  "displayFolder": "Прочее"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "calculated",
+  "name": "_Номенклатура",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "RELATED('_НоменклатураКСНСИ'[Наименование])",
+  "displayFolder": "Техническая"
+}

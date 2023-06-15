@@ -1,0 +1,11 @@
+{
+  "type": "calculated",
+  "name": "_СтрокаСодержитНорму",
+  "dataType": "boolean",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tVal=IFERROR(VALUE('_НормативыЦУНР_РЖД'[КодСКМТР]),BLANK())",
+    "RETURN",
+    "NOT(ISBLANK(tVal))&&NOT(ISBLANK('_НормативыЦУНР_РЖД'[Норматив]))&&'_НормативыЦУНР_РЖД'[Норматив]<>0"
+  ]
+}

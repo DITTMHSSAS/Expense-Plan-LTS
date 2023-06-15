@@ -1,0 +1,5 @@
+{
+  "name": "Дата индексации",
+  "dataType": "dateTime",
+  "sourceColumn": "Дата индексации"
+}

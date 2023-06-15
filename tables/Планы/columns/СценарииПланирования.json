@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "СценарииПланирования",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[СценарииПланирования]"
+}

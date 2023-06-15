@@ -1,0 +1,13 @@
+{
+  "type": "calculated",
+  "name": "ОшибкаКоэффициент",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "VAR tPrz1=ISBLANK( IFERROR( CONVERT( IF( TRIM( '_АналогиРЖД'[_Коэффициент] ) = \"\", BLANK(), '_АналогиРЖД'[_Коэффициент] ), DOUBLE ), BLANK() ) )",
+    "VAR tPrz2=( '_АналогиРЖД'[ЭталонЕд]<> '_АналогиРЖД'[Ед]) && tPrz1",
+    "RETURN",
+    "IF(tPrz2,\"Ошибка Коэффициент\",\"Ок\")"
+  ],
+  "displayFolder": "ПроверкаАналогов"
+}
